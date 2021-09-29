@@ -1,6 +1,6 @@
-# Beex Travel
+# Foo Project
 
-The official Beex Travel monorepo.
+The official bar monorepo.
 
 | Package | Description                          |
 | ------- | ------------------------------------ |
