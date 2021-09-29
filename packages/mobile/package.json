@@ -1,0 +1,51 @@
+{
+  "name": "@bt/mobile",
+  "main": "__generated__/AppEntry.js",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "expo",
+    "template",
+    "typescript",
+    "nativebase"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "expo start",
+    "dev": "expo start --clear",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "postinstall": "expo-yarn-workspaces postinstall"
+  },
+  "dependencies": {
+    "@bt/shared": "^1.0.0",
+    "@apollo/client": "^3.4.15",
+    "expo": "~42.0.0",
+    "expo-status-bar": "~1.0.4",
+    "graphql": "^15.6.0",
+    "native-base": "3.2.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-svg": "12.1.1",
+    "react-native-web": "~0.13.12",
+    "styled-components": "^5.3.0",
+    "styled-system": "^5.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@types/react": "~16.9.35",
+    "@types/react-native": "~0.63.2",
+    "expo-yarn-workspaces": "^1.5.2",
+    "typescript": "~4.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/GeekyAnts/nativebase-templates/issues"
+  },
+  "homepage": "https://github.com/GeekyAnts/nativebase-templates#readme",
+  "author": "Aditya Jamuar",
+  "private": true
+}

@@ -1,0 +1,25 @@
+{
+  "name": "foo",
+  "version": "1.0.0",
+  "author": " <foo@bar.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ],
+    "nohoist": [
+      "**"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "dev": "lerna run dev",
+    "build": "lerna run build",
+    "build:shared": "lerna run build --scope=@bt/shared",
+    "bootstrap:": "lerna run yarn",
+    "clean": "lerna run clean"
+  }
+}
